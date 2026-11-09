@@ -1,30 +1,30 @@
 # TP Especial – Fundamentos de la Ciencia de Datos: Inside Airbnb Buenos Aires 2026
 
-Análisis exploratorio, limpieza de datos y validación de hipótesis sobre los anuncios de Airbnb en la Ciudad Autónoma de Buenos Aires, a partir de los datos públicos de [Inside Airbnb](http://insideairbnb.com/get-data/).
+Análisis exploratorio, limpieza de datos y validación de hipótesis sobre los anuncios de Airbnb en la Ciudad Autónoma de Buenos Aires, a partir de los datos públicos de [Inside Airbnb](https://insideairbnb.com/get-the-data/).
 
-## Integrantes
-- Jeronimo, Pourtau Feischmacher
-- Franco, Ramallo
-- Bautista, Galvan
+## Integrantes (Grupo 6)
+- Galvan, Juan Bautista
+- Pourtau, Jeronimo
+- Ramallo, Franco
 
 ## Contenido del repositorio
 | Archivo | Descripción |
 |---|---|
 | `entrega.ipynb` | Notebook con todo el análisis, organizada en secciones |
-| `[informe.pdf]` | Informe con los principales hallazgos y conclusiones |
-| `listings.csv.gz` | Datos de Inside Airbnb (listings de Buenos Aires, [fecha del scrape]), sin descomprimir |
+| `informe.pdf` | Informe con los principales hallazgos y conclusiones |
+| `listings.csv.gz` | Datos de Inside Airbnb (listings de Buenos Aires, 23 de septiembre de 2026), sin descomprimir |
 | `requirements.txt` | Dependencias de Python con sus versiones |
 | `README.md` | Este archivo |
 
 ## Requisitos
-- Python 3.12 (desarrollado y probado con 3.12.3)
+- Python 3.11 o superior (desarrollado y probado con 3.12.3)
 - pip
 
 ## Instalación
 1. Clonar el repositorio y entrar a la carpeta:
    ```
    git clone https://github.com/Jeronit1/AnalisisDeDatos.git
-   cd TP_ESPECIAL
+   cd AnalisisDeDatos
    ```
 2. Crear y activar un entorno virtual:
    - Windows (PowerShell):
@@ -48,7 +48,7 @@ Análisis exploratorio, limpieza de datos y validación de hipótesis sobre los 
    jupyter notebook entrega.ipynb
    ```
    (También puede abrirse desde VS Code, eligiendo el kernel del entorno `.venv`.)
-2. Ejecutar todas las celdas en orden: menú **Kernel → Restart & Run All**.
+2. Ejecutar todas las celdas en orden: menú **Kernel → Restart Kernel and Run All Cells…**
 
 Notas:
 - El archivo `listings.csv.gz` debe estar en la misma carpeta que la notebook. No hace falta descomprimirlo: `pandas` lo lee directamente.
